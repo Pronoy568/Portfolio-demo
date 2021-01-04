@@ -22,7 +22,7 @@ p {
 }
 
 .part {
-    width: 40%;
+    width: 38%;
     float: left;
     margin-left: 5%;
     padding-left: 2%;
@@ -48,11 +48,40 @@ p {
 
 section {
     padding-bottom: 50px;
-    height: 500px;
+    height: 460px;
 }
 
 .mid {
     background-image: url("img/dream-bg.png");
     background-repeat: no-repeat;
     background-position: right;
+}
+
+.shado {
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 5px;
+    height: 55%;
+    background-color: white;
+}
+
+.last {
+    background-image: url("img/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+#left {
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, lightsalmon, tomato);
+    border-image-slice: 1;
+}
+
+#right {
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, blue, cyan);
+    border-image-slice: 1;
+}
+
+footer {
+    text-align: center;
 }
