@@ -1,0 +1,19 @@
+h1 {
+    font-size: 80px;
+    font-family: 'Big Shoulders Inline Text', cursive;
+}
+
+.name {
+    color: orange;
+}
+
+.top-part {
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+
+.top-part img {
+    width: 100%;
+}
